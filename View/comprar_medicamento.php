@@ -37,7 +37,7 @@
           <li class = "dropdown"><a href="#!">Serviços</a>
               <ul class="nav-dropdown">
                 <li><a href="#">Consulta Medica</a></li>
-                <li><a href="comprar_medicamento.php">Compra Online</a></li>
+                <li><a href="comprar_medicamento.php">Medicamentos</a></li>
                 
               </ul>
             </li>

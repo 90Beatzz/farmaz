@@ -33,8 +33,9 @@ public function search_med(){
             {  
                 echo "============================================= <br>";
                 echo "ID do medicamento: ".$linha['id']."<br>";
-                echo "Nome do Produto ".$linha['nome_do_prod']."<br>";
-                echo "Preço do Produto ".$linha['preco']."R$ <br>";            
+                echo "Nome do Produto: ".$linha['nome_do_prod']."<br>";
+                echo "Preço do Produto: ".$linha['preco']."R$ <br>";
+
                 }
     }
 

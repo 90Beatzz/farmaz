@@ -9,7 +9,7 @@ use farmaz;
 create table medicamento (
 	id int not null primary key auto_increment,
 	nome_do_prod varchar(50),
-    preco decimal(6,3)
+    preco decimal(6,2)
     );   
     
     
