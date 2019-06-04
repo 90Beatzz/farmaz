@@ -47,25 +47,14 @@
       </nav>
     </div>
   </section>
-  
-    <h1> sdasdaddsa ddddddddddddddddddddddddddddddddd</h1>
-	 <center> <h1> Medicamentos em Alta</h1> </center>
-  
-  
+   <h1> sdasdaddsa ddddddddddddddddddddddddddddddddd</h1>
 
-	<center>	
-	
-    <img src="https://loja.ctmd.eng.br/19986-large/omega-3-toptherm-acido-graxo-01-frasco.jpg" height="400" width="350">
-
-    <img src="https://http2.mlstatic.com/kit-vick-xarope-120ml-latinha-12g-contra-tosse-D_NQ_NP_942459-MLB26954077100_032018-F.jpg" height="400" width="350">
-
-    <img src=" http://www.uniaosaude.com.br/site/uploads/noticias/generico.gif" height="400" width="350">
-  
-	</center>
-
-  
+   
 
 </body>
+
+
+
 
 <footer>
 
@@ -77,13 +66,3 @@
 
 
 </footer>
-
-
-
-   
-
-
-
-
-
-</html>
