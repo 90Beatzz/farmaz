@@ -9,7 +9,7 @@ use farmaz;
 create table medicamento (
 	id int not null primary key auto_increment,
 	nome_do_prod varchar(50),
-    preço decimal(6,3)
+    preco decimal(6,3)
     );   
     
     
@@ -34,6 +34,8 @@ create table medico_contact (
     insert into medicamento values (DEFAULT,'Teva Farmacêutica COPAXONE',30.00);
     insert into medicamento values (DEFAULT,'Teuto  SULFATO DE AMICACINA',120.00);
     insert into medicamento values (DEFAULT,'Janssen Cilag  BUDECORT AQUA',80.00);
+    
+    
     
     select * from medicamento;
     

@@ -52,6 +52,7 @@
 	require_once ("../DAO/databse.php");
 	$conn = new DatabaseUtility;
 	$conn->connect();
+	$conn->search_med();
 
 
 

@@ -26,4 +26,17 @@ public function connect(){
         }
 
 
+public function search_med(){
+    $sql = "select * from medicamento";
+    $query = $this->pdo->query($sql);
+    while ($linha=$query->fetch(PDO::FETCH_ASSOC))                          
+            {  
+                echo "============================================= <br>";
+                echo "ID do medicamento: ".$linha['id']."<br>";
+                echo "Nome do Produto ".$linha['nome_do_prod']."<br>";
+                echo "Preço do Produto ".$linha['preco']."R$ <br>";            
+                }
+    }
+
+
 }
