@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>FARMAZ - Página Inicial</title>
+  <title>FARMAZ - Comprar Medicamento</title>
   
   
   
@@ -48,8 +48,18 @@
     </div>
   </section>
    <h1> sdasdaddsa ddddddddddddddddddddddddddddddddd</h1>
+<?PHP
+	require_once ("../DAO/databse.php");
+	$conn = new DatabaseUtility;
+	$conn->connect();
 
-   
+
+
+
+?>
+
+
+
 
 </body>
 
