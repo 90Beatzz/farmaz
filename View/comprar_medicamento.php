@@ -48,19 +48,19 @@
     </div>
   </section>
    <h1> sdasdaddsa ddddddddddddddddddddddddddddddddd</h1>
+   
 <?PHP
 	require_once ("../DAO/databse.php");
 	$conn = new DatabaseUtility;
 	$conn->connect();
+	echo "<center>";
+	echo "<h1>Compra Online </h1>";
 	$conn->search_med();
-
-
-
-
+	echo "<form action='../control/confirmar.php'>";	
+    echo "<input type='submit' value='Confirmar Compra' />";
+	echo "</form>";
+	echo "</center>";
 ?>
-
-
-
 
 </body>
 

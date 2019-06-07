@@ -27,17 +27,25 @@ public function connect(){
 
 
 public function search_med(){
+	$x=0;
+	// X contador
+	while ($x!=10){
+	$x++;
     $sql = "select * from medicamento";
     $query = $this->pdo->query($sql);
-    while ($linha=$query->fetch(PDO::FETCH_ASSOC))                          
-            {  
-                echo "============================================= <br>";
-                echo "ID do medicamento: ".$linha['id']."<br>";
-                echo "Nome do Produto: ".$linha['nome_do_prod']."<br>";
-                echo "Preço do Produto: ".$linha['preco']."R$ <br>";
+	echo "<select name='venda'>";
+	echo "<option value=".$x."selected='' disable=''>Medicamento ".$x."</option>";
+	while ($linha=$query->fetch(PDO::FETCH_ASSOC))                          
+	{ 			
+		echo "<option value=".linha['id'].">".$linha['nome_do_prod']."R$ ".$linha['preco']."</option>";
+	}
+	echo "</select>";
+	echo "</br>";
+	echo "</br>";
 
-                }
-    }
+	
+	}
 
-
+	
+}
 }
