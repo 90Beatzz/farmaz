@@ -47,7 +47,7 @@
       </nav>
     </div>
   </section>
-   <h1> sdasdaddsa ddddddddddddddddddddddddddddddddd</h1>
+  <h1></br></h1>
    
 <?PHP
 	require_once ("../DAO/databse.php");
