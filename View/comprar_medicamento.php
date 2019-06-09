@@ -36,7 +36,7 @@
           <li><a href="index.html">Tela Inicial</a></li>
           <li class = "dropdown"><a href="#!">Serviços</a>
               <ul class="nav-dropdown">
-                <li><a href="#">Consulta Medica</a></li>
+                <li><a href="medicos.php">Consulta Medica</a></li>
                 <li><a href="comprar_medicamento.php">Medicamentos</a></li>
                 
               </ul>

@@ -42,10 +42,33 @@ public function search_med(){
 	echo "</select>";
 	echo "</br>";
 	echo "</br>";
-
 	
 	}
 
 	
 }
+
+	public function find_med (){
+			
+		$sql = "select * from medico_contact";
+		
+		$query = $this->pdo->query($sql);
+			
+		while ($linha=$query->fetch(PDO::FETCH_ASSOC))                          
+			{  
+				echo "============================================= <br>";
+				echo "Nome: ".$linha['nome']."<br>";
+				echo "Tel: ".$linha['telefone']."<br>";
+				echo "Email: ".$linha['email']."<br>";
+				
+				}
+		}
+
+
+
+
+
+
+
+
 }

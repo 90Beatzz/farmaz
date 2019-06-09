@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>FARMAZ - Página Inicial</title>
+  <title>FARMAZ - Comprar Medicamento</title>
   
   
   
@@ -29,7 +29,7 @@
 
   <section class="navigation">
     <div class="nav-container">
-      <div class="brand"><a href="#">FARMAZ<a/></div>
+      <div class="brand"><a href="index.html">FARMAZ<a/></div>
       <nav>
         <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
         <ul class="nav-list">
@@ -37,7 +37,7 @@
           <li class = "dropdown"><a href="#!">Serviços</a>
               <ul class="nav-dropdown">
                 <li><a href="medicos.php">Consulta Medica</a></li>
-                <li><a href="comprar_medicamento.php">Compra Online</a></li>
+                <li><a href="comprar_medicamento.php">Medicamentos</a></li>
                 
               </ul>
             </li>
@@ -47,25 +47,22 @@
       </nav>
     </div>
   </section>
-  
-    <h1></br></h1>
-	 <center> <h1> Medicamentos em Alta</h1> </center>
-  
-  
-
-	<center>	
-	
-    <img src="https://loja.ctmd.eng.br/19986-large/omega-3-toptherm-acido-graxo-01-frasco.jpg" height="400" width="350">
-
-    <img src="https://http2.mlstatic.com/kit-vick-xarope-120ml-latinha-12g-contra-tosse-D_NQ_NP_942459-MLB26954077100_032018-F.jpg" height="400" width="350">
-
-    <img src=" http://www.uniaosaude.com.br/site/uploads/noticias/generico.gif" height="400" width="350">
-  
-	</center>
-
-  
+  <h1></br></h1>
+   
+<?PHP
+	require_once ("../DAO/databse.php");
+	echo "<center><h3> Sem receita médica? entre em contato com um de nossos parceiros </h3></center>";
+	$conn = new DatabaseUtility;
+	$conn->connect();
+	echo "<center>";
+	$conn->find_med();
+	echo "</center>";
+?>
 
 </body>
+
+
+
 
 <footer>
 
@@ -77,13 +74,3 @@
 
 
 </footer>
-
-
-
-   
-
-
-
-
-
-</html>
